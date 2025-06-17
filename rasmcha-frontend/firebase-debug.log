@@ -1,0 +1,172 @@
+[debug] [2025-06-17T11:44:04.060Z] ----------------------------------------------------------------------
+[debug] [2025-06-17T11:44:04.063Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abdur\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-06-17T11:44:04.064Z] CLI Version:   14.7.0
+[debug] [2025-06-17T11:44:04.064Z] Platform:      win32
+[debug] [2025-06-17T11:44:04.064Z] Node Version:  v22.14.0
+[debug] [2025-06-17T11:44:04.064Z] Time:          Tue Jun 17 2025 16:44:04 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2025-06-17T11:44:04.064Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-17T11:44:04.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-17T11:44:04.072Z] > authorizing via signed-in user (otabekkamolov624@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\abdur\OneDrive\Desktop\rasmcha\rasmcha-frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-06-17T11:52:51.605Z] Checked if tokens are valid: false, expires at: 1740169830885
+[debug] [2025-06-17T11:52:51.605Z] Checked if tokens are valid: false, expires at: 1740169830885
+[debug] [2025-06-17T11:52:51.606Z] > refreshing access token with scopes: []
+[debug] [2025-06-17T11:52:51.610Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-06-17T11:52:51.610Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-17T11:52:51.941Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-06-17T11:52:51.941Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-06-17T11:52:51.955Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-06-17T11:52:51.955Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"rasmcha","name":"rasmcha"}
+[debug] [2025-06-17T11:52:52.646Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-06-17T11:52:52.646Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.7291419815250589798"}
+[debug] [2025-06-17T11:52:52.648Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:52.648Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:52.648Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 [none]
+[debug] [2025-06-17T11:52:53.482Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 200
+[debug] [2025-06-17T11:52:53.483Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 {"name":"operations/create_project.global.7291419815250589798"}
+[debug] [2025-06-17T11:52:53.985Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-06-17T11:52:53.986Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:53.986Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:53.987Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 [none]
+[debug] [2025-06-17T11:52:54.235Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 200
+[debug] [2025-06-17T11:52:54.235Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7291419815250589798 {"name":"operations/create_project.global.7291419815250589798","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"968037917216","projectId":"rasmcha","lifecycleState":"ACTIVE","name":"rasmcha","createTime":"2025-06-17T11:52:52.793930Z"}}
+[debug] [2025-06-17T11:52:54.238Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:54.238Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:54.238Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/rasmcha:addFirebase [none]
+[debug] [2025-06-17T11:52:58.266Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/rasmcha:addFirebase 200
+[debug] [2025-06-17T11:52:58.266Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/rasmcha:addFirebase {"name":"operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw"}
+[debug] [2025-06-17T11:52:58.266Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:58.267Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:52:58.267Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw [none]
+[debug] [2025-06-17T11:53:02.637Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw 200
+[debug] [2025-06-17T11:53:02.637Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw {"name":"operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw"}
+[debug] [2025-06-17T11:53:03.140Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-17T11:53:03.141Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:03.141Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:03.142Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw [none]
+[debug] [2025-06-17T11:53:03.978Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw 200
+[debug] [2025-06-17T11:53:03.978Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw {"name":"operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw"}
+[debug] [2025-06-17T11:53:04.984Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-17T11:53:04.986Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:04.986Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:04.987Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw [none]
+[debug] [2025-06-17T11:53:05.880Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw 200
+[debug] [2025-06-17T11:53:05.880Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw {"name":"operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw"}
+[debug] [2025-06-17T11:53:07.887Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-06-17T11:53:07.889Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:07.890Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:07.892Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw [none]
+[debug] [2025-06-17T11:53:08.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw 200
+[debug] [2025-06-17T11:53:08.675Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw {"name":"operations/workflows/YzJlYzhjMzQtZTg3NS00NjBhLTliMzMtYjk0NDY4Y2Y1YWMw","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"rasmcha","projectNumber":"968037917216","displayName":"rasmcha","name":"projects/rasmcha","resources":{"hostingSite":"rasmcha"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: rasmcha
+[info]    - Project Name: rasmcha
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/rasmcha/overview
+[info] i  Using project rasmcha (rasmcha) 
+[info] 
+=== Functions Setup
+[debug] [2025-06-17T11:53:08.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-17T11:53:08.703Z] > authorizing via signed-in user (otabekkamolov624@gmail.com)
+[debug] [2025-06-17T11:53:08.703Z] [iam] checking project rasmcha for permissions ["firebase.projects.get"]
+[debug] [2025-06-17T11:53:08.705Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:08.705Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:08.706Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rasmcha:testIamPermissions [none]
+[debug] [2025-06-17T11:53:08.706Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rasmcha:testIamPermissions x-goog-quota-user=projects/rasmcha
+[debug] [2025-06-17T11:53:08.706Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rasmcha:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-17T11:53:09.475Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/rasmcha:testIamPermissions 200
+[debug] [2025-06-17T11:53:09.476Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rasmcha:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-06-17T11:53:09.479Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:09.479Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:09.479Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:09.480Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:09.480Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-06-17T11:53:09.480Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rasmcha
+[debug] [2025-06-17T11:53:09.483Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-06-17T11:53:09.483Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/rasmcha
+[debug] [2025-06-17T11:53:11.292Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/runtimeconfig.googleapis.com 200
+[debug] [2025-06-17T11:53:11.292Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-06-17T11:53:11.299Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com 200
+[debug] [2025-06-17T11:53:11.300Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-06-17T11:53:11.300Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:11.300Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:11.301Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-06-17T11:53:11.301Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/rasmcha
+[debug] [2025-06-17T11:53:13.033Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-06-17T11:53:13.034Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2025-06-17T11:53:23.044Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:23.044Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T11:53:23.045Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-06-17T11:53:23.045Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rasmcha
+[debug] [2025-06-17T11:53:24.790Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com 200
+[debug] [2025-06-17T11:53:24.791Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rasmcha/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[debug] [2025-06-17T12:01:39.077Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T12:01:39.078Z] Checked if tokens are valid: true, expires at: 1750164770941
+[debug] [2025-06-17T12:01:39.079Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rasmcha [none]
+[debug] [2025-06-17T12:01:39.579Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rasmcha 200
+[debug] [2025-06-17T12:01:39.579Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rasmcha {"projectId":"rasmcha","projectNumber":"968037917216","displayName":"rasmcha","name":"projects/rasmcha","resources":{"hostingSite":"rasmcha"},"state":"ACTIVE","etag":"1_2d0cc389-0b78-4582-9e6c-2ebb1a870d00"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-06-17T12:08:01.037Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-06-17T12:08:01.300Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-06-17T12:08:01.300Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.9.1","browserURL":"https://www.gstatic.com/firebasejs/11.9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.9.1/firebase.tgz"},"live":{"version":"11.9","browserURL":"https://www.gstatic.com/firebasejs/live/11.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.9/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/11.9.1/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.9.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.9.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.9.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.9.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.9.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.9.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.9.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.9.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.9.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.9.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.9.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.9.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\abdur\OneDrive\Desktop\rasmcha 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=651478569&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-06-17T12:08:14.797Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-06-17T12:08:14.798Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-06-17T12:08:15.403Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-06-17T12:08:15.403Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-06-17T12:08:15.452Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-06-17T12:08:16.058Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-06-17T12:08:16.059Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"abushshsgi","id":115877955,"node_id":"U_kgDOBugoQw","avatar_url":"https://avatars.githubusercontent.com/u/115877955?v=4","gravatar_id":"","url":"https://api.github.com/users/abushshsgi","html_url":"https://github.com/abushshsgi","followers_url":"https://api.github.com/users/abushshsgi/followers","following_url":"https://api.github.com/users/abushshsgi/following{/other_user}","gists_url":"https://api.github.com/users/abushshsgi/gists{/gist_id}","starred_url":"https://api.github.com/users/abushshsgi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/abushshsgi/subscriptions","organizations_url":"https://api.github.com/users/abushshsgi/orgs","repos_url":"https://api.github.com/users/abushshsgi/repos","events_url":"https://api.github.com/users/abushshsgi/events{/privacy}","received_events_url":"https://api.github.com/users/abushshsgi/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"abdurahim","company":"humin","blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":36,"public_gists":0,"followers":0,"following":1,"created_at":"2022-10-15T12:13:41Z","updated_at":"2025-06-17T12:08:09Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":66420,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as abushshsgi 
+[info] 
